@@ -13,7 +13,6 @@
  *  by  张铁蛋
  */
 const $ = new Env('抖音极速版');
-cron: */30 * * * *
 let tokens = $.getdata('dyjsb') || process.env['dyjsb'] || '';
 let is_bf = $.getdata('dyjsb_bf') || process.env['dyjsb_bf'] || '1';//是否并发 0否 1是
 !(async () => {
